@@ -139,7 +139,7 @@ class state:
 		return hash((self.u, self.a1, self.a2, self.a3, self.a4, self.t))
 
 	def __str__(self):
-		return f"amogh:{self.a1} ameya:{self.a2} grandma:{self.a3} grandpa:{self.a4} time:{self.t}"
+		return f"{self.u}{self.a1}{self.a2}{self.a3}{self.a4}{self.t}"
 	
 s=state('l','l','l','l','l',0)
 s.bfs()
